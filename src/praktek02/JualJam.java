@@ -18,4 +18,10 @@ public class JualJam {
         System.out.println("Jumlah Pembelian Jam    : "+jmlbelijam);
         
     }
+    
+    int totalbelijam(){
+        int belijam;
+        belijam = hrgjam * jmlbelijam;
+        return belijam;
+    }
 }

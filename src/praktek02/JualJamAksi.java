@@ -11,6 +11,9 @@ package praktek02;
  */
 public class JualJamAksi {
     public static void main(String[] args) {
-    JualJamAksi r1 = new JualJamAksi();  
+    JualJam r1 = new JualJam(); 
+    r1.hrgjam = 125000;
+    r1.jmlbelijam = 4;
+    
     }
 }

@@ -10,5 +10,12 @@ package praktek02;
  * @author lina
  */
 public class JualJam {
+    int hrgjam;
+    int jmlbelijam;
     
+    void cetakInfo(){
+        System.out.println("Harga Jam               : "+hrgjam);
+        System.out.println("Jumlah Pembelian Jam    : "+jmlbelijam);
+        
+    }
 }

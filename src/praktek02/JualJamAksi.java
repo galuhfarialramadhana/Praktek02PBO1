@@ -18,5 +18,12 @@ public class JualJamAksi {
     r1.cetakInfo();
     System.out.println("Total Pembelian Jam : "+r1.totalbelijam());
     r1.cetakBelijam();
-    }
+    
+    JualJam r2 = new JualJam();
+    r2.cetakInfo();
+    
+    
+    JualJam r3 = new JualJam(200000,12);
+    r3.cetakInfo();
+  }
 }

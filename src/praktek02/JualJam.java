@@ -17,6 +17,11 @@ public class JualJam {
         hrgjam = 135000;
         jmlbelijam = 5;
     }
+
+    public JualJam(int hrgjam, int jmlbelijam) {
+        this.hrgjam = hrgjam;
+        this.jmlbelijam = jmlbelijam;
+    }
     
     void cetakInfo(){
         System.out.println("Harga Jam               : "+hrgjam);
@@ -31,5 +36,6 @@ public class JualJam {
     }
     void cetakBelijam(){
         System.out.println("Harga yang harus dibayar adalah : "+totalbelijam());
+        System.out.println("====================================================");
     }
 }

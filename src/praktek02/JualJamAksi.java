@@ -17,5 +17,6 @@ public class JualJamAksi {
     
     r1.cetakInfo();
     System.out.println("Total Pembelian Jam : "+r1.totalbelijam());
+    r1.cetakBelijam();
     }
 }

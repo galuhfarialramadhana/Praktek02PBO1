@@ -24,4 +24,7 @@ public class JualJam {
         belijam = hrgjam * jmlbelijam;
         return belijam;
     }
+    void cetakBelijam(){
+        System.out.println("Harga yang harus dibayar adalah : "+totalbelijam());
+    }
 }

@@ -11,6 +11,6 @@ package praktek02;
  */
 public class JualJamAksi {
     public static void main(String[] args) {
-        
+    JualJamAksi r1 = new JualJamAksi();  
     }
 }

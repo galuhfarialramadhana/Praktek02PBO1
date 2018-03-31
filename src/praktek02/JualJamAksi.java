@@ -15,5 +15,6 @@ public class JualJamAksi {
     r1.hrgjam = 125000;
     r1.jmlbelijam = 4;
     
+    r1.cetakInfo();
     }
 }

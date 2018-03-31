@@ -12,6 +12,11 @@ package praktek02;
 public class JualJam {
     int hrgjam;
     int jmlbelijam;
+
+    public JualJam() {
+        hrgjam = 135000;
+        jmlbelijam = 5;
+    }
     
     void cetakInfo(){
         System.out.println("Harga Jam               : "+hrgjam);
